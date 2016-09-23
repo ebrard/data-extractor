@@ -12,7 +12,7 @@ Illustrate how to retrieve account metrics (here spending) and ads level insight
 Account spendings are extracted to a headerless csv file.
 
 ```bash
-extractor_facebook.py.py --accounts --output_accounts spending.csv --config_file config.json --date 2016-09-22
+extract_facebook.py.py --accounts --output_accounts spending.csv --config_file config.json --date 2016-09-22
 ```
 
 ### Ad level insights
@@ -20,5 +20,5 @@ extractor_facebook.py.py --accounts --output_accounts spending.csv --config_file
 Ads insights are extracted to a JSON file (ad name is the key).
 
 ```bash
-extractor_facebook.py --date 2016-09-04 --config_file config.json --campaigns --output_campaigns insights_2016-09-04.json
+extract_facebook.py --date 2016-09-04 --config_file config.json --campaigns --output_campaigns insights_2016-09-04.json
 ```
